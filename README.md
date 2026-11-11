@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 # PDF-2-TXT & RAG Data Ingestion Pipeline
 
 A lightweight Python utility designed to extract text from PDF documents and prepare high-density, structured knowledge base files for Retrieval-Augmented Generation (RAG) pipelines.
 
 ## Project Context
-Part of a modular RAG pipeline for personal knowledge bases (Dr. Yvonne Foerster & Will Munda), focused on precise source attribution and automated data processing.
+Part of a modular RAG pipeline for personal knowledge bases focused on precise source attribution and automated data processing.
 
 ## Tech Stack
 - **Python 3.x**
@@ -19,4 +18,4 @@ Part of a modular RAG pipeline for personal knowledge bases (Dr. Yvonne Foerster
    python pdf-2-text.py --INPUT "source/*.pdf" --OUTPUT pdf_text
 =======
 # pdf-2-text
->>>>>>> 8496bb493a5d9a4f91b766c133e6290c9085e9e1
+
