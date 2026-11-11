@@ -67,7 +67,7 @@ def main():
             continue
 
         output_file_path = output_dir / f"{file_path.stem}.txt"
-        output_file_path.write_text(extracted_text, encoding="utf-8")
+        output_file_path.write_text(extracted_text, encoding="utf-8", errors="replace")
         print(f"Saved text to: {output_file_path}")
 
 
